@@ -1,0 +1,9 @@
+
+
+SYSTEM_START	-	ipgse	ipgse	2024-07-04 17:26:06
+
+
+SYSTEM_INFO	Car_Generic <insert.your.version.no> #1	ipgcn2@ipgse 2024-07-04 17:24:00	(13.0 jetbrains@b1fdf6cc7772 2023-11-14 16:04:35)
+SIM	1720085166	ipgse			0	0	0
+SIM	1720085168	ipgse	ipgcn2	Examples/BasicFunctions/Driver/BackAndForth	0	61.791	485.437
+SIM	1720085403	ipgse	ipgcn2	My_BackAndForth	0	70.91	350.535

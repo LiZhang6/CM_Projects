@@ -1,0 +1,500 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TestRun 13
+FileCreator = CarMaker Office 13.0 TEMPLATE
+Description:
+	Fun maneuver showing a bodyguard escape.
+Vehicle = DemoCar_StrByTrq
+Trailer =
+Tire.0 =
+Tire.1 =
+Tire.2 =
+Tire.3 =
+Snapshot.TimeLimit =
+Snapshot.DistLimit =
+VehicleLoad.0.mass = 0
+VehicleLoad.0.pos = 0 0 0
+VehicleLoad.1.mass = 0
+VehicleLoad.1.pos = 0 0 0
+VehicleLoad.2.mass = 0
+VehicleLoad.2.pos = 0 0 0
+VehicleLoad.3.mass = 0
+VehicleLoad.3.pos = 0 0 0
+TrailerLoad.0.mass = 0
+TrailerLoad.0.pos = 0 0 0
+TrailerLoad.1.mass = 0
+TrailerLoad.1.pos = 0 0 0
+TrailerLoad.2.mass = 0
+TrailerLoad.2.pos = 0 0 0
+Road.FileIdent = IPGRoad 13.0
+Road.LibVersion = devel130
+Road.Country = DEU
+Road.nLinks = 1
+Road.nJunctions = 0
+Road.nObjects = 48
+Road.nRoutes = 2
+Road.RoadNetworkLength = 2192.47779607694
+Road.BBox = -10 1868 -18 610 -11 11
+Road.Route.0.Length = 2192.47779607694
+Road.Route.1.Length = 2192.47779607694
+Road.RST.Unit = kmh
+Road.RST = 50 100 -1 30 70 50 -1 -1
+Road.Movie = 0.2 1 0.02 25 25 0.02 0.02
+Road.Visualization.SamplingParams = 0.2 1 0.02
+Road.Visualization.RoadsideWidth = 25 25
+Road.Visualization.RoadsideSlope = 0.02 0.02
+Road.Visualization.MovieNX.RenderMask = 4095
+Road.PathMode = -1
+Road.Terrain.Param = 50 25 300 100 0.75 0
+Road.Link.0.ID = 0
+Road.Link.0.Node0 = 0 0 0 0
+Road.Link.0.Node1 = 1850 600 0 90
+Road.Link.0.RST = Undefined
+Road.Link.0.RL.ID = 1
+Road.Link.0.Seg.0.ID = 2
+Road.Link.0.Seg.0.Type = Straight
+Road.Link.0.Seg.0.Param = 1000 0 0 0 0 0 0 0
+Road.Link.0.Seg.1.ID = 3
+Road.Link.0.Seg.1.Type = Straight
+Road.Link.0.Seg.1.Param = 250 0 0 0 0 0 0 0
+Road.Link.0.Seg.2.ID = 4
+Road.Link.0.Seg.2.Type = TurnLeft
+Road.Link.0.Seg.2.Param = 600 90 0 0 0 0 0 0
+Road.Link.0.LaneSection.0.ID = 5
+Road.Link.0.LaneSection.0.Start = 0
+Road.Link.0.LaneSection.0.LaneL.0.ID = 6
+Road.Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Road.Link.0.LaneSection.0.LaneL.0.ARP = 53 54 55 56 57 58
+Road.Link.0.LaneSection.0.LaneL.0.Width:
+	42 -1 0 0 0 3 0 -999 -999
+Road.Link.0.LaneSection.0.LaneL.1.ID = 8
+Road.Link.0.LaneSection.0.LaneL.1 = 2 5 5 5 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ID = 9
+Road.Link.0.LaneSection.0.LaneR.0 = 0 3 3 0 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ARP = 59 60 61 62 63 64
+Road.Link.0.LaneSection.0.LaneR.0.Width:
+	43 -1 0 0 0 3 0 -999 -999
+Road.Link.0.LaneSection.0.LaneR.1.ID = 11
+Road.Link.0.LaneSection.0.LaneR.1 = 2 5 5 5 0 0 0
+Road.LanePath.0 = 36 6 2 10 0.1 0.1 -1 -1
+Road.LanePath.1 = 37 9 2 10 0.1 0.1 -1 -1
+Route.0.ID = 34
+Route.0.Name = Route
+Route.0.DrvPath.ID = 38
+Route.0.DrvPath:
+	37
+Route.1.ID = 35
+Route.1.Name = ReverseRoute
+Route.1.DrvPath.ID = 39
+Route.1.DrvPath:
+	36
+Road.RL.1.GuidePost.0.ID = 27 1
+Road.RL.1.GuidePost.0 = 0 0 2100 0 1.3 1 50
+Road.RL.1.GuidePost.1.ID = 28 1
+Road.RL.1.GuidePost.1 = 0 0 2100 0 -1.3 -1 50
+Road.RL.1.TreeStrip.0.ID = 29 1
+Road.RL.1.TreeStrip.0 = 100 0 2100 0 10 1 50 3 1.2 1 0.1 0.1
+Road.RL.1.TreeStrip.1.ID = 30 1
+Road.RL.1.TreeStrip.1 = 100 0 2100 0 -10 -1 50 3 1.2 1 0.1 0.1
+Road.RL.1.RoadMarking.0.ID = 31 1
+Road.RL.1.RoadMarking.0 = 0 0 0 1 0 0 0.15 0 2 0 0 3 6 1 1 4
+Road.RL.1.RoadMarking.1.ID = 32 1
+Road.RL.1.RoadMarking.1 = 0 0 0 1 -0.1 1 0.2 0 1 0 0 9 0 1 1 4
+Road.RL.1.RoadMarking.2.ID = 33 1
+Road.RL.1.RoadMarking.2 = 0 0 0 1 0.1 -1 0.2 0 1 0 0 9 0 1 1 4
+Road.RL.1.Bump.0.ID = 25 1
+Road.RL.1.Bump.0.Type = LatProfileRSL
+Road.RL.1.Bump.0.Param = 0 0 2100 0 0 1 0 0 2 0 2 0
+Road.RL.1.Bump.0.Material.0 = Textures/Ground/Roadside_Sidewalk.png 0 0 0 0 0 0 1 0 0 0 0
+Road.RL.1.Bump.0.Profile:
+	0.3 -0.02
+	0.1 0.15
+	0.1 0.15
+	1 0.17
+	0 0
+Road.RL.1.Bump.1.ID = 26 1
+Road.RL.1.Bump.1.Type = LatProfileRSR
+Road.RL.1.Bump.1.Param = 0 0 2100 0 0 -1 1 0 2 0 2 0
+Road.RL.1.Bump.1.Material.0 = Textures/Ground/Roadside_Sidewalk.png 0 0 0 0 0 0 1 0 0 0 0
+Road.RL.1.Bump.1.Profile:
+	0.3 -0.02
+	0.1 0.15
+	0.1 0.15
+	1 0.17
+	0 0
+Road.MaxUsedObjId = 64
+Vehicle.DriverTemplate.FName = TestRun
+Vehicle.KnowledgeTemplate.Name =
+Vehicle.UserDriver.Long.FName =
+Vehicle.Routing.Type = Route
+Vehicle.Routing.ObjId = 34
+Vehicle.StartPos.Type = Route
+Vehicle.StartPos.ObjId = 34
+Vehicle.StartPos = 850.00 0
+Vehicle.StartPos.Orientation.Type = Relative
+Vehicle.StartPos.Orientation = 0
+DrivMan.nMan = 1
+DrivMan.Man.Start.Velocity = 0
+DrivMan.Man.Start.GearNo = 1
+DrivMan.Man.Start.SteerAng = 0
+DrivMan.Man.Start.LaneOffset = 0
+DrivMan.Man.Start.OperatorActive = 1
+DrivMan.Man.Start.OperatorState = drive
+DrivMan.VhclOperator.Kind = IPGOperator 1
+DrivMan.Man.0.nLongSteps = 14
+DrivMan.Man.0.nLatSteps = 14
+DrivMan.Man.0.CombinedSteps = 1
+DrivMan.Man.0.MaxExec = 1
+DrivMan.Man.0.ConsiderDomain = own
+DrivMan.Man.0.Transition.Interrupt = end
+DrivMan.Man.0.Transition.EndCond = end
+DrivMan.Man.0.Transition.SimultanStart = end
+DrivMan.Man.0.LongStep.0.TimeLimit = 12
+DrivMan.Man.0.LongStep.0.Dyn = Driver 1 0
+DrivMan.Man.0.LongStep.1.TimeLimit = 0.3
+DrivMan.Man.0.LongStep.1.Dyn = Manual
+DrivMan.Man.0.LongStep.1.Clutch = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.1.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.1.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.1.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.2.TimeLimit = 0.7
+DrivMan.Man.0.LongStep.2.Dyn = Manual
+DrivMan.Man.0.LongStep.2.Clutch = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.2.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.2.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.2.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.3.TimeLimit = 1.11
+DrivMan.Man.0.LongStep.3.Dyn = Manual
+DrivMan.Man.0.LongStep.3.Clutch = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.3.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.3.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.3.BrakePark = 1 0 0.5 abs
+DrivMan.Man.0.LongStep.4.EndCond = Car.v < 0.01
+DrivMan.Man.0.LongStep.4.TimeLimit = 5
+DrivMan.Man.0.LongStep.4.Dyn = Manual
+DrivMan.Man.0.LongStep.4.Clutch = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.4.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.4.Brake = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.4.BrakePark = 0 0 0.1 abs
+DrivMan.Man.0.LongStep.5.TimeLimit = 2
+DrivMan.Man.0.LongStep.5.Dyn = Manual
+DrivMan.Man.0.LongStep.5.Clutch = 1 0 0 abs
+DrivMan.Man.0.LongStep.5.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.5.Brake = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.5.BrakePark = 0 0 0 abs
+DrivMan.Man.0.LongStep.6.EndCond = Car.v > 80/3.6
+DrivMan.Man.0.LongStep.6.TimeLimit = 30.0
+DrivMan.Man.0.LongStep.6.Dyn = Driver 1 0 150
+DrivMan.Man.0.LongStep.7.EndCond = Car.v < 0.01
+DrivMan.Man.0.LongStep.7.TimeLimit = 30.0
+DrivMan.Man.0.LongStep.7.Dyn = Manual
+DrivMan.Man.0.LongStep.7.Clutch = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.7.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.7.Brake = 1 0 0.1 abs
+DrivMan.Man.0.LongStep.7.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.8.TimeLimit = 2
+DrivMan.Man.0.LongStep.8.Dyn = Manual
+DrivMan.Man.0.LongStep.8.Clutch = 1 0 0 abs
+DrivMan.Man.0.LongStep.8.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.8.Brake = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.8.BrakePark = 0 0 0 abs
+DrivMan.Man.0.LongStep.9.EndCond = Car.v > 46/3.6
+DrivMan.Man.0.LongStep.9.TimeLimit = 20
+DrivMan.Man.0.LongStep.9.Dyn = Backward 10 50
+DrivMan.Man.0.LongStep.10.EndCond = Car.Yaw < 0.7
+DrivMan.Man.0.LongStep.10.Dyn = Manual
+DrivMan.Man.0.LongStep.10.Clutch = 1 0 0.1 abs
+DrivMan.Man.0.LongStep.10.Gas = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.10.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.10.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.10.Gear = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.11.EndCond = Car.Yaw < 0.2
+DrivMan.Man.0.LongStep.11.Dyn = Manual
+DrivMan.Man.0.LongStep.11.Clutch = 0 0 0.0 abs
+DrivMan.Man.0.LongStep.11.Gas = 0.8 0 0.2 abs
+DrivMan.Man.0.LongStep.11.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.11.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.11.Gear = 1 0 0.0 abs
+DrivMan.Man.0.LongStep.12.TimeLimit = 1
+DrivMan.Man.0.LongStep.12.Dyn = Manual
+DrivMan.Man.0.LongStep.12.Clutch = 0 0 0.1 abs
+DrivMan.Man.0.LongStep.12.Gas = 1 0 0.2 abs
+DrivMan.Man.0.LongStep.12.Brake = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.12.BrakePark = 0 0 0.2 abs
+DrivMan.Man.0.LongStep.12.Gear = 2 0 0.0 abs
+DrivMan.Man.0.LongStep.13.TimeLimit = 10
+DrivMan.Man.0.LongStep.13.Dyn = Driver 1 0 200
+DrivMan.Man.0.LatStep.0.TimeLimit = 12
+DrivMan.Man.0.LatStep.0.Dyn = Driver 1.5
+DrivMan.Man.0.LatStep.1.TimeLimit = 0.3
+DrivMan.Man.0.LatStep.1.Dyn = Step 90 0.0 0.1 abs 1
+DrivMan.Man.0.LatStep.1.SteerMode = Angle
+DrivMan.Man.0.LatStep.2.TimeLimit = 0.7
+DrivMan.Man.0.LatStep.2.Dyn = Step -270 0.0 0.2 abs 1
+DrivMan.Man.0.LatStep.2.SteerMode = Angle
+DrivMan.Man.0.LatStep.3.TimeLimit = 1.11
+DrivMan.Man.0.LatStep.3.Dyn = Step 610 0.0 0.4 abs 1
+DrivMan.Man.0.LatStep.3.SteerMode = Angle
+DrivMan.Man.0.LatStep.4.EndCond = Car.v < 0.01
+DrivMan.Man.0.LatStep.4.TimeLimit = 5
+DrivMan.Man.0.LatStep.4.Dyn = Step 0 0.0 1 abs 1
+DrivMan.Man.0.LatStep.4.SteerMode = Angle
+DrivMan.Man.0.LatStep.5.TimeLimit = 2
+DrivMan.Man.0.LatStep.5.Dyn = Step 0 0.0 0 abs 1
+DrivMan.Man.0.LatStep.5.SteerMode = Angle
+DrivMan.Man.0.LatStep.6.EndCond = Car.v > 80/3.6
+DrivMan.Man.0.LatStep.6.TimeLimit = 30.0
+DrivMan.Man.0.LatStep.6.Dyn = Driver 0
+DrivMan.Man.0.LatStep.7.EndCond = Car.v < 0.01
+DrivMan.Man.0.LatStep.7.TimeLimit = 30.0
+DrivMan.Man.0.LatStep.7.Dyn = Step 0 0.0 0 abs 1
+DrivMan.Man.0.LatStep.7.SteerMode = Angle
+DrivMan.Man.0.LatStep.8.TimeLimit = 2
+DrivMan.Man.0.LatStep.8.Dyn = Driver 1.5
+DrivMan.Man.0.LatStep.9.EndCond = Car.v > 46/3.6
+DrivMan.Man.0.LatStep.9.TimeLimit = 20
+DrivMan.Man.0.LatStep.9.Dyn = Driver 1.5
+DrivMan.Man.0.LatStep.10.EndCond = Car.Yaw < 0.7
+DrivMan.Man.0.LatStep.10.Dyn = Step 450 0.0 0.3 abs 1
+DrivMan.Man.0.LatStep.10.SteerMode = Angle
+DrivMan.Man.0.LatStep.11.EndCond = Car.Yaw < 0.2
+DrivMan.Man.0.LatStep.11.Dyn = Step 0 0.0 0 abs 1
+DrivMan.Man.0.LatStep.11.SteerMode = Torque
+DrivMan.Man.0.LatStep.12.TimeLimit = 1
+DrivMan.Man.0.LatStep.12.Dyn = Step 0 0.0 1 abs 1
+DrivMan.Man.0.LatStep.12.SteerMode = Angle
+DrivMan.Man.0.LatStep.13.TimeLimit = 10
+DrivMan.Man.0.LatStep.13.Dyn = Driver 0
+Driver.Info = Example driver template
+Driver.Mode = std
+Driver.MultiStep = 1
+Driver.Course.LapDriving = 1
+Driver.Course.CornerCutCoef = 0.0
+Driver.Course.ApexShiftCoef = 0.0
+Driver.Course.CornerRoundCoef = 0.0
+Driver.Course.ShapeCoef = 1.0
+Driver.Course.PylonShiftFdCoef = 0.1
+Driver.Course.PylonShiftBkCoef = 0.1
+Driver.Acc.GGExp:
+	50 1.5 1.5
+Driver.Acc.axMax = 4.0
+Driver.Acc.axMin = -6.0
+Driver.Acc.ayMax = 20
+Driver.Acc.UseVelDepend = 0
+Driver.Acc.Factor.Accel = 1.0
+Driver.Acc.Factor.Decel = 1.0
+Driver.Acc.Factor.Lateral = 0.95
+Driver.Vel.CruisingSpeed = 250
+Driver.Vel.dtMinAccelDecel = 0.5
+Driver.Vel.Random.Amp = 0.0
+Driver.Vel.Random.Freq = 1.0
+Driver.Vel.LatInclFromRoad = 1
+Driver.Vel.MinimumSpeed = 1.0
+Driver.Long.Active = 1
+Driver.Long.TractionControl = 0
+Driver.Long.dtAccBrake = 0.25
+Driver.Long.dtAccBrakeKind = 0
+Driver.Long.DevMax = 0.0
+Driver.Long.tReact = 0.0
+Driver.Long.SmoothCoef = 0.0
+Driver.Long.SmoothThrottleLimit = 1.0
+Driver.Long.AccuracyCoef = 1
+Driver.Long.Rally.BrakeSlipCoef =
+Driver.Long.Rally.SideSlipCoef =
+Driver.Long.Rally.Active = 0
+Driver.Long.DriveCycle.Coef = 0
+Driver.Long.DriveCycle.Tol = 0
+Driver.Long.DragTorqueBraking = 0
+Driver.Long.ThrottleVelRelease = 10.0
+Driver.Long.ThrottleVelPush = 10.0
+Driver.Long.BrakeVelRelease = 10.0
+Driver.Long.BrakeVelPush = 10.0
+Driver.Long.ActuatorAccMax = 1000.0
+Driver.Long.ThrottleAmp = 1.0
+Driver.Long.BrakeAmp = 1.0
+Driver.Long.ClutchAmp = 1.0
+Driver.Long.dtSwitchGear = 0.0
+Driver.Long.Road3DRedCoef = 0.0
+Driver.Lat.Active = 1
+Driver.Lat.RiderRollType = 3
+Driver.Lat.RiderRollAmplify = 1.0
+Driver.Lat.DevMax = 0.0
+Driver.Lat.tReact = 0.0
+Driver.Lat.DevProReact =
+Driver.Lat.tDwell =
+Driver.Lat.StAHandOverHand =
+Driver.Lat.tHandOverHand =
+Driver.Lat.AccuracyCoef = 1.0
+Driver.Lat.StTorqueRequestSensitivity =
+Driver.Lat.StTorqueRequestCompCoef =
+Driver.Lat.StWhlAngleMax = 630
+Driver.Lat.StWhlAngleVelMax = 1500
+Driver.Lat.StWhlAngleAccMax = 20000
+Driver.Lat.StWhlTorqueMax = 20.0
+Driver.Lat.StWhlTorqueVelMax = 1000.0
+Driver.Lat.SteeringAmp = 1.0
+Driver.DecShift.UseBrakePark = 0
+Driver.DecShift.tSwitchGear = 0.5
+Driver.DecShift.AsymClutch = 0.0
+Driver.DecShift.AsymClutchDown = 0.0
+Driver.DecShift.AsymShift = 0.0
+Driver.DecShift.tSSNeutralGear =
+Driver.DecShift.nEngine.Limits:
+	2500 5000
+Driver.DecShift.nEngine.Shift:
+	3000 4500
+Driver.Consider.SpeedLimit = 1
+Driver.Consider.StopMarker = 1
+Driver.Consider.TrfLight = 1
+Driver.Consider.Traffic = 1
+Driver.Traffic.Overtake = 0
+Driver.Traffic.TimeGapMin = 1.8
+Driver.Traffic.TimeGapMax = 5.0
+Driver.Traffic.DistMin = 6
+Driver.Traffic.DistMax = 250
+Driver.Traffic.EcoCoef = 0.75
+Driver.Traffic.Overtake.Rate = 1
+Driver.Traffic.Overtake.dSpeedMin = 10
+Driver.Traffic.Overtake.Multilane = 1
+Driver.Traffic.Ongoing.FollowVelThresh = 60.0
+Driver.Traffic.Ongoing.OvertakeVelDiff = 20.0
+Driver.Traffic.Overtake.SetIndicator = 1
+Driver.Percept.nObjMax = 4
+Driver.Percept.nLanesMax = 3
+Driver.Percept.UpdRate = 100
+Driver.DecShift.nEngine.MaxSpeed.UserDefined = 0
+Driver.Acc.VelDepend.UserDefined = 0
+Driver.OutSdcv = 0
+Driver.Knowl.0.Name = Knowledge
+Driver.Knowl.0.Info = Example Driver Knowledge
+Driver.Knowl.0.Mode =
+Driver.Knowl.0.Vehicle =
+Driver.Knowl.0.Testrun =
+Driver.Knowl.0.Friction = 1.0
+Driver.Knowl.0.VehicleLimits.Date =
+Driver.Knowl.0.VehicleLimits.Testrun =
+Driver.Knowl.0.ControllerDyn.Date =
+Driver.Knowl.0.ControllerDyn.Testrun =
+Driver.Knowl.0.RaceAdaption.Date =
+Driver.Knowl.0.RaceAdaption.Testrun =
+Driver.Knowl.0.LearningRate =
+Driver.Knowl.0.Vhcl.ReferencePointType = PoI
+Driver.Knowl.0.Vhcl.Acc:
+Driver.Knowl.0.nEngine.MaxSpeed:
+Driver.Knowl.0.Long.tPreviewAcc = 1.5
+Driver.Knowl.0.Long.tPreviewBra = 0.6
+Driver.Knowl.0.Long.tPreEngDyn =
+Driver.Knowl.0.Long.tPreBraDyn =
+Driver.Knowl.0.Long.tPreEngDead =
+Driver.Knowl.0.Long.tPreBraDead =
+Driver.Knowl.0.Long.ThrottlePfP =
+Driver.Knowl.0.Long.BrakePfP =
+Driver.Knowl.0.Long.SlipMax:
+Driver.Knowl.0.Long.axDragG1 =
+Driver.Knowl.0.Lat.tPreview = 0.8
+Driver.Knowl.0.Lat.tPreDyn =
+Driver.Knowl.0.Lat.tYawPro =
+Driver.Knowl.0.Lat.StWhlTorqueAmplify =
+Driver.Knowl.0.Lat.StWhlTorqueAmplifyC =
+Driver.Knowl.0.Lat.StWhlTorqueAmplifyV =
+Driver.Knowl.0.Lat.LimitSideSlip =
+Driver.Knowl.N = 1
+Driver.Lat.TolDriveContraCourse = 1
+Traffic.SpeedUnit = ms
+Traffic.IFF.FName =
+Traffic.IFF.Time.Name =
+Traffic.GenDriverBehavior.FName = Default
+Traffic.N = 0
+Traffic.SmartGen.Mode = 0 0 0
+DrivMan.OW.Active = 0
+DrivMan.OW.Quantities =
+DrivMan.OW.StartGearNo = 1
+DrivMan.OW.StartVelocity =
+DrivMan.OW.GasMax = 0.5
+DrivMan.OW.RefCh = Time
+DrivMan.OW.ConsiderRoadSigns = 0
+DrivMan.OW.sRoute.Offset = 0
+ErrorClass.0.Action = abort
+ErrorClass.0.Save = 0
+ErrorClass.0.WarningLimit = 3 5
+ErrorClass.1.Action = abort
+ErrorClass.1.Save = 0
+ErrorClass.1.WarningLimit = 3 5
+ErrorClass.2.Action = abort
+ErrorClass.2.Save = 0
+ErrorClass.2.WarningLimit = 3 5
+ErrorClass.3.Action = abort
+ErrorClass.3.Save = 0
+ErrorClass.3.WarningLimit = 3 5
+ErrorClass.4.Action = abort
+ErrorClass.4.Save = 0
+ErrorClass.4.WarningLimit = 3 5
+ErrorClass.5.Action = abort
+ErrorClass.5.Save = 0
+ErrorClass.5.WarningLimit = 3 5
+ErrorClass.6.Action = abort
+ErrorClass.6.Save = 0
+ErrorClass.6.WarningLimit = 10 5
+ErrorClass.7.Action = abort
+ErrorClass.7.Save = 0
+ErrorClass.7.WarningLimit = 3 5
+ErrorClass.10.Action = abort
+ErrorClass.10.Save = 0
+ErrorClass.10.WarningLimit = 3 5
+ErrorClass.11.Action = abort
+ErrorClass.11.Save = 0
+ErrorClass.11.WarningLimit = 3 5
+Env.StartTime.Year = 2014
+Env.StartTime.Month = 1
+Env.StartTime.Day = 1
+Env.StartTime.Hour = 12
+Env.StartTime.Min = 0
+Env.StartTime.Sec = 0
+Env.StartTime.DeltaUTC = 0.0
+Env.GNav.Active = 0
+Env.Temperature = 20.0
+Env.AirDensity = 1.205
+Env.AirPressure = 1.013
+Env.AirHumidity = 60
+Env.SolarRadiation = 400.0
+Env.Sun.Position = angleDefinition
+Env.Sun.Azimuth = 45.0
+Env.Sun.Elevation = 45.0
+Env.Cloud.Kind = simple
+Env.Cloud.Height = 200
+Env.Cloud.Intensity = 0.1
+Env.Cloud.Velocity = 15
+Env.Cloud.Angle = 0
+Env.FogActive = 0
+Env.VisRangeInFog = 10000.0
+Env.FogUseSkyColor = 0
+Env.FogColor = 0.5 0.5 0.5
+Env.RainRate = 0.0
+Env.Wind.Kind = none
+Env.Wind.Velocity = 0.0
+Env.Wind.Angle = 0.0
+Env.Kind = Generic
+Env.Temp.Offset_Elev = -0.0065
+Env.Temp.Offset_sRoad.Amplify = 1.0
+Env.Temp.Offset_sRoad.On = 0
+Env.Temp.Offset_Time.Amplify = 1.0
+Env.Temp.Offset_Time.On = 1
+Env.Temp.Offset_Time:
+	0.0 -2.0
+	3.0 -2.5
+	6.0 -2.7
+	7.5 -2.7
+	9.0 -2.5
+	10.0 -2.3
+	11.0 -1.6
+	12.0 0.0
+	13.0 1.4
+	14.0 2.1
+	15.5 2.5
+	17.0 2.2
+	18.0 1.7
+	19.0 1.1
+	20.0 0.2
+	21.0 -0.6
+	22.0 -1.1
+	23.0 -1.6
+	24.0 -2.0

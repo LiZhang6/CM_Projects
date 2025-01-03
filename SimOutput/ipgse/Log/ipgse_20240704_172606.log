@@ -1,0 +1,28 @@
+APPLICATION	Car_Generic <insert.your.version.no> #1 (linux64-13.0)
+COMPILED	ipgcn2@ipgse 2024-07-04 17:24:00
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2024-07-04 17:26:06
+TIME	0.000
+		num_trf: 0
+SIM_END			0s	0m
+IDLE	17:26:07
+SIM_START	Examples/BasicFunctions/Driver/BackAndForth	2024-07-04 17:26:08
+TIME	0.066
+		num_trf: 0
+TIME	0.000
+SIMULATE	Examples/BasicFunctions/Driver/BackAndForth
+
+TIME	61.793
+SIM_END		Examples/BasicFunctions/Driver/BackAndForth	61.791s	485.437m
+TIME	83.457
+SIM_START	My_BackAndForth	2024-07-04 17:30:03
+TIME	0.068
+		num_trf: 1
+		trf num start end= 1
+		Current random seed value = 1720085403
+TIME	0.000
+SIMULATE	My_BackAndForth
+
+TIME	70.912
+SIM_END		My_BackAndForth	70.91s	350.535m
