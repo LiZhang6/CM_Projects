@@ -1,5 +1,1 @@
-"New changes" 
-"Test Webhook" 
-"test again" 
-"compile test" 
-"compile test_real" 
+This project is set for CICD Test.
