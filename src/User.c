@@ -675,7 +675,7 @@ User_Out (const unsigned CycleNo)
 #endif
 
     if (SimCore.State != SCState_Simulate)
-    Log("Hello World");
+    // Log("Hello World");
 	return;
 }
 
