@@ -17,7 +17,7 @@ include /opt/ipg/carmaker/linux64-13.0/include/MakeDefs.xeno
 
 APP_VER =		"Car_Generic <insert.your.version.no>"
 #APP_NAME =		CarMaker.$(ARCH)$(EXE_EXT)
-APP_NAME =		test_12.$(ARCH)$(EXE_EXT)
+APP_NAME =		test_13.$(ARCH)$(EXE_EXT)
 
 #OPT_CFLAGS =		-g -O1
 
