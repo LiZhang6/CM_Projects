@@ -19,6 +19,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#if defined(_DSRT) || defined(_DSRTLX) || defined(_DSRT64)
+#  include <DsApplicationInterface.h>
+#endif
 
 #include <infoc.h>
 #include <CarMaker.h>
@@ -28,11 +31,11 @@
 extern const char *SetConnectedIO (const char *io);
 
 static const char *CompileLibs[] = {
-    /* ../../../fake/linux64/lib-xeno/../../../src_lib/Portings/xeno/lib/libcar.a */
-    /* ../../../fake/linux64/lib-xeno/../../../src_lib/Portings/xeno/lib/libcarmaker.a */
-    /* ../../../fake/linux64/lib-xeno/../../../lib/driver/xeno/lib/libipgdriver.a */
-    /* ../../../fake/linux64/lib-xeno/../../../lib/road/xeno/lib/libipgroad.a */
-    /* ../../../fake/linux64/lib-xeno/../../../lib/tire/xeno/lib/libipgtire.a */
+    /* /opt/ipg/carmaker/linux64-13.0/lib-xeno/libcar.a */
+    /* /opt/ipg/carmaker/linux64-13.0/lib-xeno/libcarmaker.a */
+    /* /opt/ipg/carmaker/linux64-13.0/lib-xeno/libipgdriver.a */
+    /* /opt/ipg/carmaker/linux64-13.0/lib-xeno/libipgroad.a */
+    /* /opt/ipg/carmaker/linux64-13.0/lib-xeno/libipgtire.a */
     "libcar.a	CarMaker-Car xeno 13.0 2023-11-14",
     "libcarmaker.a	CarMaker xeno 13.0 2023-11-14",
     "libipgdriver.a	IPGDriver xeno64 13.0 2023-11-09",
@@ -46,29 +49,27 @@ static const char *CompileFlags[] = {
     "-m64 -fPIC -O3 -DNDEBUG -DLINUX -DLINUX64 -D_GNU_SOURCE",
     "-D_FILE_OFFSET_BITS=64 -DCM_NUMVER=130000",
     "-D_REENTRANT -fasynchronous-unwind-tables",
-    "-D__COBALT__ -DXENO -DXENO64 -DCM_HIL -DMYMODELS -Wall",
+    "-D__COBALT__ -DXENO -DXENO64 -DCM_HIL",
+    "-I/opt/ipg/carmaker/linux64-13.0/include/cobalt",
+    "-I/opt/ipg/carmaker/linux64-13.0/include",
+    "-I/opt/ipg/carmaker/linux64-13.0/include/alchemy",
+    "-I/opt/ipg/carmaker/linux64-13.0/include -Wall",
     "-Wimplicit -Wmissing-prototypes",
-    "-Wno-format-overflow -Wno-format-truncation",
-    "-Wno-stringop-overflow -Wno-stringop-truncation",
-    "-Wno-array-bounds -Wno-array-parameter",
-    "-Wno-attributes -Wno-packed-not-aligned",
-    "-Wno-address-of-packed-member -fno-stack-protector",
-    "-Wlogical-op -Wno-return-local-addr",
     NULL
 };
 
 
 tAppStartInfo   AppStartInfo = {
-    "CarMaker 13.0 - Car_Generic",          /* App_Version         */
-    "2",          /* App_BuildVersion    */
-    "jetbrains",     /* App_CompileUser     */
-    "b1fdf6cc7772",         /* App_CompileSystem   */
-    "2023-11-14 16:22:26",  /* App_CompileTime */
+    "Car_Generic <insert.your.version.no>",          /* App_Version         */
+    "25",          /* App_BuildVersion    */
+    "jenkins",     /* App_CompileUser     */
+    "izuf699j446ibltuqh2e3vz",         /* App_CompileSystem   */
+    "2025-02-24 18:08:07",  /* App_CompileTime */
 
     CompileFlags,                /* App_CompileFlags  */
     CompileLibs,                 /* App_Libs          */
 
-    "",          /* SetVersion        */
+    "13.0",          /* SetVersion        */
 
     NULL,           /* TestRunName       */
     NULL,           /* TestRunFName      */
@@ -194,4 +195,11 @@ App_ExportConfig (void)
 }
 
 
+#if defined(_DS1006)
+void
+IPGRT_Board_Init (void)
+{
+    init();
+}
+#endif
 
